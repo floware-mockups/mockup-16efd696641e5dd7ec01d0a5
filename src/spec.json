@@ -1,0 +1,259 @@
+{
+  "title": "Inventario degli arredi scolastici",
+  "description": "Gestione degli arredi per aula, quantità e stato di conservazione, con riepilogo e registrazione delle variazioni.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Panoramica",
+      "description": "Riepilogo dell’inventario e accesso rapido alle aule e agli arredi.",
+      "metrics": [
+        {
+          "label": "Aule inventariate",
+          "value": "8"
+        },
+        {
+          "label": "Tipi di arredo",
+          "value": "6"
+        },
+        {
+          "label": "Elementi registrati",
+          "value": "149"
+        },
+        {
+          "label": "Da verificare",
+          "value": "5"
+        }
+      ],
+      "columns": [
+        "Aula",
+        "Tipologia",
+        "Quantità",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Aula Lumo",
+          "Banchi",
+          "18",
+          "Buono"
+        ],
+        [
+          "Aula Vela",
+          "Sedie",
+          "24",
+          "Buono"
+        ],
+        [
+          "Aula Nubi",
+          "Armadi",
+          "2",
+          "Da verificare"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "arredi",
+      "title": "Arredi",
+      "description": "Consulta e filtra gli arredi registrati per aula, tipologia e stato di conservazione.",
+      "metrics": [],
+      "columns": [
+        "Aula",
+        "Tipologia",
+        "Quantità",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Aula Lumo",
+          "Banchi",
+          "18",
+          "Buono"
+        ],
+        [
+          "Aula Lumo",
+          "Sedie",
+          "20",
+          "Discreto"
+        ],
+        [
+          "Aula Lumo",
+          "Armadi",
+          "2",
+          "Buono"
+        ],
+        [
+          "Aula Vela",
+          "Banchi",
+          "16",
+          "Discreto"
+        ],
+        [
+          "Aula Vela",
+          "Sedie",
+          "24",
+          "Buono"
+        ],
+        [
+          "Aula Vela",
+          "Lavagne",
+          "1",
+          "Buono"
+        ],
+        [
+          "Aula Nubi",
+          "Banchi",
+          "20",
+          "Da verificare"
+        ],
+        [
+          "Aula Nubi",
+          "Sedie",
+          "22",
+          "Discreto"
+        ],
+        [
+          "Aula Nubi",
+          "Armadi",
+          "2",
+          "Da verificare"
+        ],
+        [
+          "Aula Nubi",
+          "Librerie",
+          "3",
+          "Buono"
+        ],
+        [
+          "Aula Rugiada",
+          "Banchi",
+          "18",
+          "Buono"
+        ],
+        [
+          "Aula Rugiada",
+          "Sedie",
+          "19",
+          "Discreto"
+        ],
+        [
+          "Aula Rugiada",
+          "Lavagne",
+          "1",
+          "Da verificare"
+        ],
+        [
+          "Aula Prisma",
+          "Banchi",
+          "21",
+          "Buono"
+        ],
+        [
+          "Aula Prisma",
+          "Sedie",
+          "23",
+          "Buono"
+        ],
+        [
+          "Aula Prisma",
+          "Armadi",
+          "1",
+          "Discreto"
+        ],
+        [
+          "Aula Brina",
+          "Banchi",
+          "17",
+          "Discreto"
+        ],
+        [
+          "Aula Brina",
+          "Sedie",
+          "20",
+          "Buono"
+        ],
+        [
+          "Aula Brina",
+          "Librerie",
+          "2",
+          "Buono"
+        ],
+        [
+          "Aula Quarzo",
+          "Banchi",
+          "19",
+          "Buono"
+        ],
+        [
+          "Aula Quarzo",
+          "Sedie",
+          "21",
+          "Da verificare"
+        ],
+        [
+          "Aula Quarzo",
+          "Lavagne",
+          "1",
+          "Buono"
+        ],
+        [
+          "Aula Ondina",
+          "Banchi",
+          "16",
+          "Discreto"
+        ],
+        [
+          "Aula Ondina",
+          "Sedie",
+          "18",
+          "Buono"
+        ],
+        [
+          "Aula Ondina",
+          "Armadi",
+          "2",
+          "Buono"
+        ],
+        [
+          "Aula Mirto",
+          "Banchi",
+          "20",
+          "Buono"
+        ],
+        [
+          "Aula Mirto",
+          "Sedie",
+          "22",
+          "Discreto"
+        ],
+        [
+          "Aula Mirto",
+          "Librerie",
+          "1",
+          "Da verificare"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "nuovo-arredo",
+      "title": "Registra arredo",
+      "description": "Aggiungi una tipologia di arredo e la relativa quantità per un’aula.",
+      "metrics": [],
+      "columns": [
+        "Aula",
+        "Tipologia",
+        "Quantità",
+        "Stato"
+      ],
+      "rows": [],
+      "form": [
+        "Aula",
+        "Tipologia",
+        "Quantità",
+        "Stato"
+      ]
+    }
+  ]
+}
